@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+h1{color: white;
+text-align: center;}
+p{
+    color: darkgoldenrod;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+
+
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.about-1 h1{
+    text-align:center;
+    color:aliceblue;
+    font-weight:bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 30px;
+    color:white;
+} 
+.about-item{
+    margin-bottom: 20px;
+    margin-top:20px;
+    background-color: white;
+    padding: 60px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0.6);
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: black;
+    margin:0 auto;
+    border: none;
+}
+.about-item:hover{
+    background-color: darkgoldenrod
+}
+.about-item:hover h3,
+.about-item:hover p{
+    color:aliceblue;
+}
+.about-item:hover hr{
+    background-color: aliceblue;
+}
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+h2{
+    color: darkgoldenrod;
+}
+.footer{
+    background-color:black;
+    padding: 70px 0;
+    }
+    .footer-col{
+    width: 25%;
+    padding: 0 15px;
+    }
+    .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    }
+    .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: darkgoldenrod;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+    }
+   
+    
+    @media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px){
+    .footer-col{
+    width: 100%;
+    }
+    }
